@@ -80,49 +80,7 @@ HTMLActuator.prototype.addTile = function (tile) {
   text[24] = " ";
   text[25] = " ";
   text[26] = " ";
-  text[27] = " ";
-  text[28] = " ";
-  text[29] = " ";
-  text[30] = " ";
-  text[31] = " ";
-  text[32] = " ";
-  text[33] = " ";
-  text[34] = " ";
-  text[35] = " ";
-  text[36] = " ";
-  text[37] = " ";
-  text[38] = " ";
-  text[39] = " ";
-  text[40] = " ";
-  text[41] = " ";
-  text[42] = " ";
-  text[43] = " ";
-  text[44] = " ";
-  text[45] = " ";
-  text[46] = " ";
-  text[47] = " ";
-  text[48] = " ";
-  text[49] = " ";
-  text[50] = " ";
-  text[51] = " ";
-  text[52] = " ";
-  text[53] = " ";
-  text[54] = " ";
-  text[55] = " ";
-  text[56] = " ";
-  text[57] = " ";
-  text[58] = " ";
-  text[59] = " ";
-  text[60] = " ";
-  text[61] = " ";
-  text[62] = " ";
-  text[63] = " ";
-  text[64] = " ";
-  text[65] = " ";
-  text[66] = " ";
-  text[67] = " ";
-  text[68] = " ";
-  text[69] = " ";
+  
   var self = this;
   var text2 = function (n) { var r = 0; while (n > 1) r++, n >>= 1; return r; }
 
@@ -202,7 +160,7 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 };
 
 HTMLActuator.prototype.message = function (won) {
-  var mytxt=new Array(14);
+ var mytxt=new Array();
   mytxt[0]="Haa , you lost at 3 tiles!";
   mytxt[1]="Haa , you lost at 4 tiles!";
   mytxt[2]="Haa , you lost at 5 tiles!";
@@ -217,6 +175,18 @@ HTMLActuator.prototype.message = function (won) {
   mytxt[11]="Haa , you lost at 14 tiles!";
   mytxt[12]="Haa , you lost at 15 tiles!";
   mytxt[13]="Haa , you lost at 16 tiles!";
+  mytxt[14]="Haa , you lost at 17 tiles!";
+  mytxt[15]="Haa , you lost at 18 tiles!";
+  mytxt[16]="Haa , you lost at 19 tiles!";
+  mytxt[17]="Haa , you lost at 20 tiles!";
+  mytxt[18]="Haa , you lost at 21 tiles!";
+  mytxt[19]="Haa , you lost at 22 tiles!";
+	mytxt[20]="Haa , you lost at 23 tiles!";
+  mytxt[21]="Haa , you lost at 24 tiles!";
+  mytxt[22]="Haa , you lost at 25 tiles!";
+  mytxt[23]="Haa , you lost at 26 tiles!";
+  mytxt[24]="Haa , you lost at 27 tiles!";
+  mytxt[25]="Haa , you lost at 28 tiles!";
 
 
   var text3 = function (m) { var r = 0; while (m > 1) r++, m >>= 1; return r; }
