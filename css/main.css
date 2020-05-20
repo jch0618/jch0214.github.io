@@ -419,6 +419,43 @@ hr {
     background: url(../img/p17.png);
 	background-size:contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+.tile.tile-262144 .tile-inner {
+    background: url(../img/p18.png);
+	background-size:contain;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+  .tile.tile-524288 .tile-inner {
+    background: url(../img/p19.png);
+	background-size:contain;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+  .tile.tile-1048576 .tile-inner {
+    background: url(../img/p20.png);
+	background-size:contain;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+	.tile.tile-2097152 .tile-inner {
+    background: url(../img/p21.png);
+	background-size:contain;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+	.tile.tile-4194304 .tile-inner {
+    background: url(../img/p22.png);
+	background-size:contain;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+	.tile.tile-8838608 .tile-inner {
+    background: url(../img/p23.png);
+	background-size:contain;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+	.tile.tile-16777216 .tile-inner {
+    background: url(../img/p24.png);
+	background-size:contain;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+	.tile.tile-33554432 .tile-inner {
+    background: url(../img/p25.png);
+	background-size:contain;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+	.tile.tile-67108864 .tile-inner {
+    background: url(../img/p26.png);
+	background-size:contain;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
